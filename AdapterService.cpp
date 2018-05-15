@@ -401,7 +401,7 @@ int AdapterService::Start()
 		pHttpServer_->add_mapping("/check",AdapterService::HandlePushCheck,(long )this, POST_METHOD);
 		pHttpServer_->add_mapping("/hls",AdapterService::HandleHls,(long )this, POST_METHOD);
 
-		pHttpServer_->add_bind_ip("120.78.231.159");
+		pHttpServer_->add_bind_ip("xxx.xxx.xxx.xxx");
 		pHttpServer_->set_port(8089);
 		pHttpServer_->set_backlog(100000);
        		pHttpServer_->set_max_events(100000);
@@ -421,7 +421,7 @@ int AdapterService::Start()
 			break;
 		}
 
-		ret = pAdapterServer_->Start("120.78.231.159", 8090);
+		ret = pAdapterServer_->Start("xxx.xxx.xxx.xxx", 8090);
 		if(ret != 0)
 		{
 			iRet = -4;
