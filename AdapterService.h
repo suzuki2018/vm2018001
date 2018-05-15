@@ -9,10 +9,10 @@
 
 #define MAX_CONN_SIZE        5
 #define INITIAL_CONN_SIZE    5
-#define HOSTNAME             "120.76.200.250"
-#define USERNAME             "root"
-#define PASSWORD             "d9CbFdc55D326b"
-#define DB_NAME              "douya"
+#define HOSTNAME             "xxx.xxx.xxx.xxx"
+#define USERNAME             "rxxx"
+#define PASSWORD             "xxxxxxxxx"
+#define DB_NAME              "xxxxxxx"
 
 
 
